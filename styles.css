@@ -603,7 +603,7 @@ body {
 /* Contenedor principal de los items del menú */
 .menu-item {
   background-color: #fff;
-  box-shadow: 0 4px 12px #0d0f86;
+  box-shadow: 0 4px 12px #4f3af2;
   border-radius: 10px;
   margin: 10px;
   padding: 15px;
@@ -626,6 +626,7 @@ body {
     width: calc(30% - 40px); /* Aumenta el ancho al 30% en lugar del 25% */
     max-width: 300px; /* Aumenta el límite de ancho */
   }
+}
 
     
     /* Contenedor principal para los elementos de menú */
@@ -643,7 +644,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; /* Centrar los elementos */
-    gap: 40px; /* Espaciado más uniforme */
+    gap: 20px; /* Espaciado más uniforme */
     padding: 20px; /* Añadir un poco de padding */
   }
 
@@ -1707,5 +1708,3 @@ form button:hover {
     color: #00e1ff; /* Aplica color blanco al texto en negrita */
   }
   
-
-
