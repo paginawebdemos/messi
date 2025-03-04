@@ -626,7 +626,7 @@ body {
     width: calc(30% - 40px); /* Aumenta el ancho al 30% en lugar del 25% */
     max-width: 300px; /* Aumenta el límite de ancho */
   }
-}
+
 
     
     /* Contenedor principal para los elementos de menú */
