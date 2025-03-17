@@ -5,6 +5,7 @@ body {
     color: #ffffff;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 /* Contenedor de carga */
@@ -88,6 +89,21 @@ body {
     gap: 20px;
     padding: 20px;
 }
+.menu-item {
+    background: #1a1a2e;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+.menu-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.5);
+}
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
 
 /* Modal */
 .modal {
@@ -106,6 +122,12 @@ body {
     padding: 20px;
     border-radius: 10px;
     text-align: center;
+    width: 80%;
+    max-width: 400px;
+}
+.modal img {
+    width: 100%;
+    border-radius: 10px;
 }
 .order-button {
     background: #e94560;
