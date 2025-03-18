@@ -348,6 +348,7 @@ h2 {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  width: 100%;
 }
 
 .menu-item p {
@@ -358,13 +359,9 @@ h2 {
 
 .menu-item .pedido-button,
 .menu-item .read-more-button {
-  font-size: 0.9rem;
   font-weight: bold;
-  padding: 8px 16px;
   border-radius: 10px;
   cursor: pointer;
-  width: 80%;
-  max-width: 200px;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
@@ -448,6 +445,7 @@ h2 {
   font-size: 1.1rem;
   color: #000000;
   margin-bottom: 10px;
+  white-space: normal; /* Título completo en el modal */
 }
 
 .modal p {
@@ -830,14 +828,18 @@ form button:hover {
 }
 
 .dish-card h5 {
-  margin: 0 0 0.3rem;
+  margin: 0 0 0.8rem;
   color: #333;
   font-size: 1.1rem;
   font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
 }
 
 .dish-card p {
-  margin: 0.3rem 0;
+  margin: 0 0 0.8rem;
   font-size: 1rem;
   color: #666;
 }
@@ -964,12 +966,20 @@ form button:hover {
 
   .menu-item h5 {
     font-size: 1rem;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
 
   .menu-item p {
-    font-size: 1rem;
-    margin-top: 10px;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+
+  .menu-item .pedido-button,
+  .menu-item .read-more-button {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+    width: 100%;
+    max-width: 140px;
   }
 
   .menu-section h2 {
@@ -1146,12 +1156,22 @@ form button:hover {
     margin: 10px 0;
   }
 
-  .menu-item h3 {
-    font-size: 0.8em;
-    color: #000000;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  .menu-item h5 {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+  }
+
+  .menu-item p {
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+  }
+
+  .menu-item .pedido-button,
+  .menu-item .read-more-button {
+    font-size: 0.85rem;
+    padding: 6px 14px;
+    width: 100%;
+    max-width: 160px;
   }
 
   .modal {
@@ -1178,7 +1198,7 @@ form button:hover {
   }
 
   .dish-card h5 {
-    margin: 0 0 0.2rem;
+    margin: 0 0 0.6rem;
   }
 
   .dish-card p {
@@ -1213,6 +1233,14 @@ form button:hover {
     width: 100%;
     max-width: 320px;
     padding: 20px;
+  }
+
+  .menu-item h5 {
+    margin-bottom: 12px;
+  }
+
+  .menu-item p {
+    margin-bottom: 15px;
   }
 
   #menu-list {
@@ -1254,10 +1282,20 @@ form button:hover {
 
   .menu-item h5 {
     font-size: 1.3rem;
+    margin-bottom: 12px;
   }
 
   .menu-item p {
     font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+
+  .menu-item .pedido-button,
+  .menu-item .read-more-button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    width: 80%;
+    max-width: 200px;
   }
 
   .search-box {
@@ -1285,9 +1323,11 @@ form button:hover {
 
   .dish-card h5 {
     font-size: 1.2rem;
+    margin-bottom: 12px;
   }
 
   .dish-card p {
     font-size: 1rem;
+    margin-bottom: 15px;
   }
 }
